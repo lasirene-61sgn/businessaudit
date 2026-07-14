@@ -9,10 +9,22 @@
 <body class="bg-gray-50 text-gray-800 p-4 md:p-8">
 
     <div class="max-w-4xl mx-auto bg-white rounded-2xl border border-amber-400 p-6 md:p-12 shadow-sm relative overflow-hidden">
+
+        <!-- Logout Button -->
+        <div class="absolute top-4 right-4">
+            <form action="{{ route('customer.logout') }}" method="POST">
+                @csrf
+                <button type="submit" class="text-xs font-bold text-gray-500 hover:text-red-500 border border-gray-200 hover:border-red-300 px-4 py-2 rounded-lg transition-colors bg-white shadow-sm">
+                    🚪 Logout
+                </button>
+            </form>
+        </div>
         
         <!-- Header Branding Module -->
         <div class="text-center space-y-3 mb-10">
-            <div class="inline-block bg-amber-500 text-white rounded p-2 font-bold transform rotate-6">📊</div>
+            <div class="flex justify-center mb-2">
+                <img src="{{ asset('logo.png') }}" alt="La Sirene Logo" class="h-16 object-contain">
+            </div>
             <h1 class="text-4xl font-extrabold text-gray-900 tracking-tight">Business <span class="text-amber-500">Health Check Up</span></h1>
             <p class="text-gray-500 text-sm max-w-lg mx-auto">
                 A professional health check for your business. Answer core targeted verification queries across multiple business areas to unlock personalized improvement suggestions and clean reports.
