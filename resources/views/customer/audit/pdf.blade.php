@@ -159,6 +159,9 @@
 
     <!-- MAIN TITLE -->
     <h1 style="margin-bottom: 2px;"><span class="text-orange">Business Health Checkup</span></h1>
+    <div style="margin-top: 40px; padding: 20px; text-align: center; font-size: 14px; font-weight: bold; border-top: 1px solid #e5e7eb; color: #111827;">
+       For any queries, please contact 7418111000.
+    </div>
     
 
     <!-- BUSINESS INFO -->
