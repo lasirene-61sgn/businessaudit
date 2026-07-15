@@ -13,7 +13,7 @@
             <img src="{{ asset('logo.png') }}" alt="La Sirene Logo" class="h-12 object-contain mb-4">
             <h2 class="text-2xl font-bold text-center text-gray-800 mb-2">Security Verification</h2>
             <p class="text-center text-sm text-gray-500">
-                Please enter the 6-digit OTP confirmation code sent to your mobile phone to activate your account.
+                Please enter the 6-digit OTP confirmation code sent to your Whatsapp Number by happywed to activate your account.
             </p>
         </div>
 
