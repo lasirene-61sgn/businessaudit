@@ -10,8 +10,8 @@
     <div class="bg-white p-8 rounded-xl shadow-sm border w-full max-w-lg mx-auto">
         <div class="flex flex-col items-center mb-6">
             <img src="{{ asset('logo.png') }}" alt="La Sirene Logo" class="h-12 object-contain mb-4">
-            <h2 class="text-2xl font-bold text-center text-gray-800 mb-2">Create Customer Account</h2>
-            <p class="text-center text-sm text-gray-500">Join our platform. Verification code required via phone after submit.</p>
+            <h2 class="text-2xl font-bold text-center text-gray-800 mb-2">Create Your Account</h2>
+            <p class="text-center text-sm text-gray-500">Join our platform. A verification code will be sent via WhatsApp by Happywed after you submit the form.</p>
         </div>
 
         <form action="{{ route('customer.register.submit') }}" method="POST" enctype="multipart/form-data" class="space-y-4 w-full">
